@@ -9,7 +9,7 @@ let app = express();
 // Render automatically injects the PORT variable
 const PORT = process.env.PORT || 3000; 
 
-app.get('/', (req, res) => res.send('Hi from Render!'));
+// app.get('/', (req, res) => res.send('Hi from Render!'));
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 
